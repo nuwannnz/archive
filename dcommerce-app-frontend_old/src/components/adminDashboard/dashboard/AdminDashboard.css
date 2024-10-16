@@ -1,0 +1,148 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  padding-top: 3rem;
+}
+
+.content-container {
+  width: 75%;
+  flex: 0.82;
+}
+
+.content-container-sidebar {
+  width: 75%;
+  flex: 1;
+}
+
+.page-layout {
+  width: 100%;
+  padding: 1.5em;
+  margin: 1em;
+  height: calc(100% - 65px);
+}
+
+.table-layout {
+  min-width: 800px;
+}
+
+.card-labels {
+  color: rgb(94, 97, 97);
+}
+
+.card-container {
+  margin: 0 auto;
+  height: 50vh;
+  margin-top: 1.6rem;
+  height: 100%;
+  padding: 1em;
+}
+
+.dropzone_content {
+  border-radius: 2;
+  border: 1px solid #eaeaea;
+  margin-bottom: 5;
+  margin-right: 5;
+  width: 100%;
+  height: 100%;
+  padding: 6;
+  box-sizing: border-box;
+}
+
+.image_content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image_content img {
+  width: 50px;
+  height: 50px;
+}
+
+.image_content .delete {
+  position: relative;
+  top: -0.1em;
+  z-index: 100;
+  color: #010101;
+  cursor: pointer;
+  width: 5px;
+  height: 5px;
+}
+
+.image_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding: 0.5em;
+  object-fit: cover;
+  margin-top: -1.8em;
+}
+
+/* css for setting sidebar component*/
+.setting-sidebar {
+  border-right: 1px solid rgb(194, 196, 194);
+  height: 100%;
+}
+
+.setting-toggle-menu-icon {
+  cursor: pointer;
+  display: none;
+  visibility: hidden;
+}
+
+.action-buttons {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-container {
+    width: 100%;
+    flex: 1;
+  }
+
+  .dropzone_content {
+    border-radius: 2;
+    border: 1px solid #a8a8a8;
+    margin-bottom: 1;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+    padding: 1;
+    box-sizing: border-box;
+  }
+
+  .image_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.08em;
+    object-fit: cover;
+    margin-top: -1.8em;
+  }
+
+  .setting-sidebar {
+    border-right: none;
+    z-index: 100;
+  }
+
+  /* css for showing setting sidebar menu icon*/
+  .setting-toggle-menu-icon {
+    z-index: 100;
+    visibility: visible;
+    cursor: pointer;
+  }
+
+  /*css for showing toggle menu sidebar with shadow effect*/
+  .setting-sidebar-toggel {
+    margin-top: 0;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+      rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+      rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  }
+}

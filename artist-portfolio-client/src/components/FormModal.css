@@ -1,0 +1,82 @@
+.Eventform {
+    overflow: hidden;
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.formModal {
+    overflow: hidden;
+    max-width: 17rem;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1280px) {
+
+    .formModal {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width:1028px) {
+
+    .formModal {
+        height: 88vh;
+    }
+}
+
+@media screen and (max-width:912px) {
+
+    .formModal {
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width:820px) {
+
+    .formModal {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    .formModal {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width:420px) {
+
+    .formModal {
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .Eventform {
+        max-width: 15rem;
+    }
+
+    .formModal {
+        max-width: 13rem;
+        height: 57vh;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .formModal {
+        height: 75vh;
+    }
+}
+

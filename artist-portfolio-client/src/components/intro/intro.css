@@ -1,0 +1,594 @@
+#intro {
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 85rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.background_intro {
+    width: 100%;
+    height: 100%;
+}
+
+.backImg {
+    position: absolute;
+    top: 2rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 85vh;
+    margin-left: 45rem;
+    margin-top: 1rem;
+    background-size: cover;
+    background-position: center;
+    opacity: 1.7;
+}
+
+.introContent {
+    height: 100vh;
+    width: auto;
+    padding-left: 7rem;
+    margin-top: -2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3.6rem;
+    text-transform: uppercase;
+    flex: 1;
+}
+
+.introtext {
+    text-transform: uppercase;
+    padding-top: 4rem;
+    white-space: pre-line;
+    max-width: 20%;
+    text-align: center;
+  }
+
+/* .introName {
+    color: rgb(12, 158, 134);
+} */
+
+.intropara {
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 1px;
+    white-space: pre-line;
+    width: 25%;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.link {
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    margin: 2rem 0.75rem;
+}
+
+.button-grid {
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding-top: 2rem;
+}
+
+.button-listen .MuiButton-outlined, .button-shop .MuiButton-outlined {
+    border-color: var(--outlined-button-border);
+    color: var(--outlined-button-textcolor);
+    font-weight: 400;
+    border-radius: 4rem;
+    font-size: 1rem;
+  }
+
+@media screen and (max-width:1280px){
+
+    .background_intro {
+        object-fit: fill;
+        opacity: 70%;
+        margin-top: 1rem;
+    }
+
+    .introContent {
+        font-size: 4vw;
+        align-items: flex-start;
+        margin-left: 5rem;
+        margin-top: -1rem;
+    }
+
+    .intropara {
+        font-size: 0.8rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 0.4rem;
+    }
+
+    .button-grid {
+        max-width: 25%;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 20px;
+        margin: -0.1rem;
+    }
+    
+    .button-listen .MuiButton-outlined, .button-shop .MuiButton-outlined {
+        width: 8rem;
+        font-weight: 500;
+        border-radius: 4rem;
+        font-size: 0.8rem;
+        border-width: 1px;
+      }
+
+    .links{
+        margin-top: 4rem;
+    }
+
+    .backImg {
+        margin-left: 28rem;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media screen and (max-width:1024px){
+
+    #intro {
+        height: auto;
+    }
+
+    .background_intro {
+        width: 100%;
+        margin-left: 0;
+        object-fit: fill;
+        opacity: 70%;
+        margin-top: 1rem;
+    }
+
+    .introContent {
+        font-size: 4vw;
+        margin-left: 0;
+        margin-top: -2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .introtext {
+        font-size: 3.47rem;
+    }
+
+    .intropara {
+        font-size: 1vw;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 0.4rem;
+    }
+
+    .button-grid {
+        max-width: 33%;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 20px;
+        margin: -0.1rem;
+    }
+    
+    .button-listen .MuiButton-outlined, .button-shop .MuiButton-outlined {
+        width: 8rem;
+        font-weight: 500;
+        border-radius: 4rem;
+        font-size: 0.8rem;
+        border-width: 1px;
+      }
+
+    .links{
+        margin-top: 1rem;
+    }
+
+    .backImg {
+        height: auto;
+        margin-left: 0; 
+        margin-top: 1rem;
+        background-size: cover;
+        background-position: center;
+        opacity: 1.7;
+    }
+}
+
+@media screen and (max-width:920px){
+    
+    .background_intro {
+        width: 95%;
+        margin-left: 0.8rem;
+        object-fit: cover;
+        opacity: 70%;
+    }
+
+    .introContent {
+        font-size: 8vw;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .intropara {
+        font-size: 2.5vw;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 2rem;
+        width: 50%;
+    }
+
+    .button-grid {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+    
+    .button-listen .MuiButton-outlined, .button-shop .MuiButton-outlined {
+        width: 10rem;
+        font-weight: 500;
+        border-radius: 4rem;
+        font-size: 1rem;
+        border-width: 2px;
+      }
+
+    .links{
+        margin-top: 4rem;
+    }
+
+}
+
+@media screen and (max-width:840px){
+    
+    .background_intro {
+        width: 95%;
+        margin-left: 0.8rem;
+        object-fit: cover;
+        opacity: 70%;
+        top: 5rem;
+    }
+
+    .introContent {
+        font-size: 8vw;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .introtext {
+        font-size: 3rem;
+    }
+
+    .intropara {
+        font-size: 2.5vw;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 2rem;
+        width: 50%;
+    }
+
+    .button-grid {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+    
+    .button-listen .MuiButton-outlined, .button-shop .MuiButton-outlined {
+        width: 10rem;
+        font-weight: 500;
+        border-radius: 4rem;
+        font-size: 1rem;
+        border-width: 2px;
+      }
+
+    .links{
+        margin-top: 4rem;
+    }
+
+}
+
+@media screen and (max-width:720px){
+
+    .background_intro {
+        width: 100%;
+        margin-left: 3rem;
+        object-fit: cover;
+        opacity: 70%;
+    }
+
+    .introContent {
+        font-size: 5vw;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .intropara {
+        font-size: 2.5vw;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 0.5rem;
+    }
+
+    .button-grid {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+    
+    .button-listen .MuiButton-outlined, .button-shop .MuiButton-outlined {
+        width: 10rem;
+        font-weight: 500;
+        border-radius: 4rem;
+        font-size: 0.8rem;
+        border-width: 2px;
+      }
+
+    .links{
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width:540px){
+
+    .background_intro {
+        width: 95%;
+        margin-left: 0.8rem;
+        object-fit: cover;
+        opacity: 70%;
+    }
+
+    .introtext {
+        font-size: 2rem;
+    }
+
+    .introContent {
+        font-size: 7vw;
+        align-items: center;
+        margin-top: -1rem;
+        margin-left: 0;
+    }
+
+    .intropara {
+        font-size: 2.5vw;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 2rem;
+    }
+
+    .button-grid {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+    
+    .button-listen .MuiButton-outlined, .button-shop .MuiButton-outlined {
+        width: 10rem;
+        font-weight: 500;
+        border-radius: 4rem;
+        font-size: 0.8rem;
+        border-width: 2px;
+      }
+
+    .links{
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width:480px){
+
+    .introContent {
+        font-size: 3rem;
+        align-items: center;
+        margin-top: 0.8rem;
+        margin-left: 0;
+    }
+
+    .background_intro {
+        width: 100%;
+        margin-left: 0.2rem;
+        object-fit: cover;
+        opacity: 70%;
+        top: 5rem;
+    }
+
+    .intropara {
+        font-size: 3vw;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 2rem;
+        margin-left: 0rem;
+        width: 70%;
+    }
+
+    .introtext {
+        font-size: 3rem;
+        max-width: 30%;
+    }
+
+    .links {
+        margin-top: 2rem;
+    }
+
+    .button-grid {
+        max-width: 40%;
+        display: block;
+        align-items: center;
+        margin-left: 3.4rem;
+    }
+    
+    .button-listen .MuiButton-outlined, .button-shop .MuiButton-outlined {
+        width: 8rem;
+        font-weight: 600;
+        border-radius: 4rem;
+        font-size: 0.7rem;
+
+      }
+    
+      .backImg {
+        top: auto;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width:412px){
+    .background_intro {
+        width: 100%;
+        margin-left: -0.01rem;
+    }
+
+    .introContent {
+        font-size: 2.5rem;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .intropara {
+        font-size: 0.9rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 2rem;
+    }
+
+    .backImg {
+        top: auto;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:375px){
+
+    .intro-container {
+        width: 100%;
+    }
+
+    .introContent {
+        font-size: 2.5rem;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .background_intro {
+        width: 100%;
+        margin-left: 0.2rem;
+        object-fit: cover;
+        opacity: 70%;
+        top: 5rem;
+    }
+
+    .intropara {
+        font-size: 3vw;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 2rem;
+        width: 70%;
+    }
+
+    .introtext {
+        padding-top: 0;
+        font-size: 2rem;
+        max-width: 30%;
+    }
+
+    .links {
+        margin-top: 2rem;
+    }
+
+    .button-grid {
+        max-width: 40%;
+        display: block;
+        align-items: center;
+        margin-left: 3.4rem;
+    }
+    
+    .button-listen .MuiButton-outlined, .button-shop .MuiButton-outlined {
+        width: 8rem;
+        font-weight: 600;
+        border-radius: 4rem;
+        font-size: 0.7rem;
+        border-width: 1;
+      }
+
+    .backImg {
+        top: auto;
+    }
+
+}
+
+@media screen and (max-width:280px){
+
+    .background_intro {
+        width: 100%;
+        margin-left: 0.01rem;
+        object-fit: cover;
+        opacity: 70%;
+    }
+
+    .introContent {
+        font-size: 9vw;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .introtext {
+        padding-top: 0;
+        font-size: 2rem;
+    }
+
+    .intropara {
+        font-size: 0.6rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 2rem;
+    }
+
+    .button-grid {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+    
+    .button-listen .MuiButton-outlined, .button-shop .MuiButton-outlined {
+        width: 8rem;
+        font-weight: 500;
+        border-radius: 4rem;
+        font-size: 0.7rem;
+        border-width: 2px;
+        padding: 0.3rem;
+        margin: 0.4rem;
+      }
+
+    .links{
+        margin-top: 2rem;
+    }
+}
+

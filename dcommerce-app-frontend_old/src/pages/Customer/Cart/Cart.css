@@ -1,0 +1,12 @@
+.cart-container {
+  width: 100%;
+}
+
+.cart-title {
+  text-align: center;
+}
+
+.cart-image-thumbnail {
+  width: 100px;
+  height: 100px;
+}

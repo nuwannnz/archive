@@ -1,0 +1,68 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+
+const features = [
+  {
+    title: "Customizable Portfolios",
+    description:
+      "Craft stunning portfolios with ease, choosing from a variety of templates that cater to your unique style and needs.",
+    icon: "bx:bxs-briefcase",
+  },
+  {
+    title: "Integrated Booking System",
+    description:
+      "Seamlessly manage appointments with an integrated booking system, making it easy for clients to connect with you.",
+    icon: "bx:bxs-calendar",
+  },
+  {
+    title: "Responsive and Modern Design",
+    description:
+      "Our designs are fully responsive, ensuring your portfolio looks great on any device, enhancing user experience.",
+    icon: "bx:bxs-mobile",
+  },
+  {
+    title: "SEO and Social Media Friendly",
+    description:
+      "Optimize your online presence with built-in SEO tools and social media integration, driving traffic to your site.",
+    icon: "bx:bxs-megaphone",
+  },
+  {
+    title: "Easy Content Management",
+    description:
+      "Update your portfolio effortlessly with our intuitive content management system, tailored for creatives.",
+    icon: "bx:bxs-pencil",
+  },
+  {
+    title: "Dedicated Support",
+    description:
+      "Our team is here to support you every step of the way, from setup to ongoing maintenance of your site.",
+    icon: "bx:bxs-user-voice",
+  },
+];
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Empower Your Professional Presence Online
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    thePortfolioLab offers all the tools you need to build a dynamic and engaging portfolio website, tailored to your professional needs.
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    features.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full p-2 w-8 h-8 shrink-0">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>

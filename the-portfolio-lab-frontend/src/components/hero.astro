@@ -1,0 +1,46 @@
+---
+import { Picture } from '@astrojs/image/components';
+import heroImage from 'assets/hero.png';
+import Link from '@components/ui/link.astro';
+import { Icon } from 'astro-icon';
+---
+
+<main
+  class='grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24'
+>
+  <div class='py-6 md:order-1  md:block'>
+    <Picture
+      src={heroImage}
+      alt='Astronaut in the air'
+      widths={[200, 400, 600]}
+      aspectRatio='4:4'
+      sizes='(max-width: 800px) 100vw, 620px'
+      loading='eager'
+      format='avif'
+    />
+  </div>
+  <div>
+    <h1
+      class='text-3xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter'
+    >
+      Create Your Perfect Portfolio
+    </h1>
+    <p class='text-lg mt-4 text-slate-600 max-w-xl'>
+      Discover thePortfolioLab: Where creativity meets convenience. Perfect for
+      all creatives seeking a sleek portfolio and seamless booking in one.<wbr
+      /> Showcase your work, book clients, and shine!
+    </p>
+    <div class='mt-6 flex flex-col sm:flex-row gap-3'>
+      <Link
+        href='#'
+        href='/contact'
+        class='flex gap-1 items-center justify-center'
+        rel='noopener'
+      >
+        <Icon class='text-white w-5 h-5' name='bx:bxs-cloud-download' />
+
+        Try for free
+      </Link>
+    </div>
+  </div>
+</main>

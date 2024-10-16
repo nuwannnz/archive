@@ -1,0 +1,279 @@
+#contactPage {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 2rem;
+    position: relative;
+}
+
+.contactTitle {
+    text-transform: uppercase;
+    font-family: var(--custom-font-fam2);
+    font-size: 21px;
+    color: var(--black);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.contactDesc {
+    font-family: var(--custom-font-fam2);
+    font-size: 15px;
+    color: var(--light_green);
+    line-height: 1.3rem;
+    letter-spacing: 0.4px;
+}
+
+.contact-para {
+    padding: 0rem 6rem;
+    font-family: var(--custom-font-fam2);
+    font-size: 14px;
+    letter-spacing: 0.03rem;
+    line-height: 1.7rem;
+}
+
+.css-bw1kdh-MuiGrid-root>.MuiGrid-item {
+    padding-top: 15px;
+}
+
+.css-y9qytt-MuiGrid-root>.MuiGrid-item {
+    padding-left: 8px;
+    width: 100%;
+    align-items: center;
+}
+
+.css-y9qytt-MuiGrid-root {
+    align-items: center;
+}
+
+.css-bw1kdh-MuiGrid-root {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.css-1osj8n2-MuiGrid-root {
+    max-width: 70%;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    margin-top: -1rem;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.contactInput {
+    /* font-size: 12px;
+    width: 100%;
+    max-width: 40rem; */
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-family: var(--custom-font-fam2);
+    color: var(--black);
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--semi_transparent_green);
+    /* height: 3rem; */
+}
+
+.contactInputSelect {
+    margin: 0;
+    padding: 0;
+    height: 3rem;
+    font-size: 8px;
+    width: 100%;
+    max-width: 40rem;
+    font-family: var(--custom-font-fam2);
+    color: var(--black);
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--semi_transparent_green);
+}
+
+.contact-submit {
+    background: var(--light_green);
+    border: none;
+    border-radius: 2rem;
+    padding: 0.7rem 3rem;
+    margin: 2rem;
+    color: var(--white);
+    font-family: var(--custom-font-fam2);
+    font-size: 1rem;
+}
+
+/* Target the container of the react-select */
+.react-select-container {
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+}
+
+/* Target the control part of the react-select */
+.react-select__control {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    font-family: var(--custom-font-fam2);
+    color: var(--black);
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--semi_transparent_green);
+    height: 38px;
+    /* Adjust this value to match the height of your other inputs */
+}
+
+.success-message {
+    opacity: 0;
+    /* Initially hidden */
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    /* Smooth transition for opacity and visibility */
+    color: var(--light_green);
+    /* Text color for success message */
+    background-color: var(--white);
+    /* Background color, adjust as needed */
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-family: var(--custom-font-fam2);
+    font-size: 16px;
+    letter-spacing: 0.03rem;
+}
+
+.success-message.visible {
+    opacity: 1;
+    /* Fully visible when the class 'visible' is added */
+    visibility: visible;
+}
+
+.custom-text {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+}
+
+.contactForm .MuiGrid-item {
+    width: 100% !important;
+    max-width: unset !important;
+}
+
+.contactForm .formGrid {
+    width: 50%;
+}
+
+@media screen and (max-width:1024px) {
+    .css-1osj8n2-MuiGrid-root {
+        max-width: 80% !important;
+    }
+
+    .css-y9qytt-MuiGrid-root>.MuiGrid-item {
+        width: 80%;
+    }
+
+    .custom-text {
+        width: 97%;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .content {
+        margin: 1rem;
+        margin-top: -10%;
+    }
+
+    .contact-para {
+        padding: 0;
+    }
+
+    .custom-text {
+        width: 90%;
+    }
+
+    .css-1osj8n2-MuiGrid-root {
+        max-width: 70% !important;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .content {
+        margin: 1rem;
+        margin-top: -10%;
+    }
+
+    .contact-para {
+        padding: 0;
+    }
+
+    .custom-text {
+        width: 90%;
+    }
+
+    .css-1osj8n2-MuiGrid-root {
+        max-width: 80% !important;
+    }
+
+    .contactForm .formGrid {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .content {
+        margin: 1rem;
+        margin-top: -10%;
+    }
+
+    .contact-para {
+        padding: 0;
+    }
+
+    .custom-text {
+        width: 90% !important;
+    }
+
+    .css-1osj8n2-MuiGrid-root {
+        max-width: 70% !important;
+    }
+
+    .contactForm .formGrid {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .content {
+        margin: 1rem;
+        margin-top: -10%;
+    }
+
+    .contact-para {
+        padding: 0;
+    }
+
+    .custom-text {
+        width: 88%;
+    }
+
+    .css-1osj8n2-MuiGrid-root {
+        max-width: 80% !important;
+    }
+
+    .contactForm .formGrid {
+        width: 100% !important;
+    }
+}

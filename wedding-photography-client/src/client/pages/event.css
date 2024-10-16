@@ -1,0 +1,39 @@
+.event-heading{
+    text-transform: uppercase;
+    font-family: var(--custom-font-fam2);
+    font-size: 21px;
+    color: var(--light_green);
+    font-weight: 500;
+}
+
+.calendar-container {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+  }
+  
+  .square-background {
+    background-color: var(--semi_transparent_green);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+  
+
+  /* .calendar {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 0; 
+  } */
+  
+  
+  
+  
+  
+  

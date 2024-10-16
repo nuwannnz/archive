@@ -1,0 +1,28 @@
+.product-card {
+  max-width: 345px;
+  cursor: pointer;
+}
+.product-card:hover {
+  background: "#f00";
+}
+
+.product-card-category {
+  font-size: 0.8rem !important;
+}
+
+.product-card-title {
+  font-size: 1rem !important;
+  color: #0062bd;
+}
+
+.add-to-card-button:hover {
+  color: white;
+  background-color: #505150 !important;
+}
+
+.card-actions {
+  justify-content: space-evenly;
+}
+.button {
+  color: black !important;
+}

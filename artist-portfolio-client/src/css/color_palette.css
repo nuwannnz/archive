@@ -1,0 +1,67 @@
+:root {
+    --primary-bg-color:rgb(6, 2, 27);
+    --bg-color:white;
+    --menu-bar-bg_color: white;
+    --desktopMenu-open-bgcolor : rgb(245, 247, 247);
+    --event-img-bg-color:rgb(106 104 104 / 5%);
+    --timeline-bg-color:white;
+    --timeline-circle-bg-color:white;
+    --more-timeline-circle-bg-color:rgb(209 201 201 / 16%);
+    --audiocard-bg-color:rgb(248 246 246 / 3%);
+    --audiocard-footer-bg-color:rgb(6 2 27);
+    --menu-bg-color:#8f8c8c00;
+    --about-text-bg-color:rgb(149 147 147 / 17%);
+
+    --desktopMenu-item-hover-color:rgb(197, 192, 195);
+    --menu-button-hover:#325a71;
+
+    --desktopMenu-item-border:rgb(47, 129, 211);
+    --outlined-button-border: #9AB7D3;
+    --primary-button-bordercolor:#C7DBDA;
+    --outlined-button-border-more-event:rgb(240, 241, 241);
+    --primary-border:#e0e0e0;
+    
+    --text-color: white;
+    --outlined-button-textcolor:#d1c6c6;
+    --primary-button-textcolor:#9AB7D3;
+    --transparent-button:white;
+    --audiocard-footer-textcolor:#f5f3f3a3;
+
+    --audiocard-play-button:rgb(225 221 15 / 47%);
+    --audiocard-icon-fillcolor:rgb(241, 245, 243);
+}
+
+/* :root {
+    --primary-bg-color: #f0e6e6; 
+    --bg-color: #fafafa; 
+    --menu-bar-bg_color: #fafafa; 
+    --desktopMenu-open-bgcolor: #f5f7f7; 
+    --event-img-bg-color: #d1d0d0; 
+    --timeline-bg-color: #fafafa; 
+    --timeline-circle-bg-color: #fafafa; 
+    --more-timeline-circle-bg-color: #d1c9c9; 
+    --audiocard-bg-color: #f8f6f6; 
+    --audiocard-footer-bg-color: #f6f4f4; 
+    --menu-bg-color: #cccacaff; 
+    --about-text-bg-color: #9593932b; 
+
+    --desktopMenu-item-hover-color: #c5c0c3; 
+    --menu-button-hover: #325a71; 
+
+    --desktopMenu-item-border: #2f81d3; 
+    --outlined-button-border: #9ab7d3; 
+    --primary-button-bordercolor: #c7dbda; 
+    --outlined-button-border-more-event: #f0f1f1; 
+    --primary-border: #e0e0e0; 
+
+    --text-color: #040404; 
+    --outlined-button-textcolor: #080808; 
+    --primary-button-textcolor: #9ab7d3; 
+    --transparent-button: #ffffff; 
+    --audiocard-footer-textcolor: #f0e6e6; 
+
+    --audiocard-play-button: #e1dd0f; 
+    --audiocard-icon-fillcolor: #f1f5f3; 
+} */
+
+

@@ -1,0 +1,416 @@
+#music {
+    overflow: hidden;
+    width: 100%;
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.musicTitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-top: 0;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.skillDesc {
+    font-size: 0.9rem;
+    font-weight: 200;
+    max-width: 60rem;
+    padding: 0 2rem;
+}
+
+  .see-more-audio {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .audio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 1rem;
+  }
+  
+  .audiocard {
+    width: 200px; 
+    height: 20rem;
+    /* margin-bottom: 1rem; */
+  }
+
+  .audiocard img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .audiocard button {
+    background-color: var(--audiocard-bg-color);
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 3rem;
+    left: 0;
+    position: relative;
+  }
+
+  /* .audiocard button:hover{
+    background-color: rgb(224, 21, 21);
+  } */
+
+  .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root {
+    display: flex;
+    height: 100%;
+    position: relative;
+    border-radius: 0;
+  }
+
+  .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-91gk5m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-193wbc8-MuiTypography-root {
+    margin: 0;
+    font-family: "raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.75;
+    letter-spacing: 0.02em;
+    margin-top: 0px;
+    /* z-index: 100; */
+    background-color: var(--audiocard-footer-bg-color);
+    color: var(--audiocard-footer-textcolor);
+    text-transform: uppercase;
+    flex-basis: 30%;
+  }
+
+  .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-o69gx8-MuiCardMedia-root {
+    flex-basis: 70%;
+  }
+
+  .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-91gk5m .css-ts9txk-MuiSvgIcon-root{
+    color: var(--audiocard-play-button);
+  }
+
+  .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-91gk5m .css-ts9txk-MuiSvgIcon-root:hover {
+    fill: var(--audiocard-icon-fillcolor);
+  }
+
+@media screen and (max-width:1280px){
+
+    #music {
+        max-width: 70rem;
+    }
+
+    .musicTitle {
+        font-size: 1.5rem;
+    }
+
+    .audio-container {
+      /*grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));  Each column takes at least 30% and expands to fill available space */
+      /* width: 90vw; 
+      margin-top: -1rem; */
+      display: flex;
+    }
+
+    .audiocard {
+      height: 220px;
+      width: 230px;
+    }
+
+    .see-more-audio {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  
+    .audiocard img {
+      height: 140px;
+    }
+  
+    .audiocard button {
+      left: 0;
+      top: -2rem;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-o69gx8-MuiCardMedia-root {
+      max-height: 12rem;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-193wbc8-MuiTypography-root {
+      height: 100%;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root {
+      display: block;
+      height: 100%;
+      background-color: var(--audiocard-footer-bg-color);
+    }
+}
+
+@media screen and (max-width:840px){
+
+    .musicTitle {
+        font-size: 1.5rem;
+    }
+
+    .audio-container {
+      /*grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));  Each column takes at least 30% and expands to fill available space */
+      /* width: 90vw; 
+      margin-top: -1rem; */
+      display: flex;
+    }
+
+    .audiocard {
+      height: 200px;
+      width: 200px;
+    }
+
+    .see-more-audio {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  
+    .audiocard img {
+      height: 140px;
+    }
+  
+    .audiocard button {
+      left: 0;
+      top: -2rem;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-o69gx8-MuiCardMedia-root {
+      max-height: 12rem;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-193wbc8-MuiTypography-root {
+      height: 100%;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root {
+      display: block;
+      height: 100%;
+      background-color: var(--audiocard-footer-bg-color);
+    }
+
+}
+
+@media screen and (max-width:720px){
+
+  #music {
+    margin: 0 auto;
+  }
+
+    .musicTitle {
+        font-size: 1.5rem;
+    }
+
+    .audio-container {
+      /*grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));  Each column takes at least 30% and expands to fill available space */
+      /* width: 90vw; 
+      margin-top: -1rem; */
+      display: flex;
+    }
+
+    .audiocard {
+      height: 200px;
+      width: 200px;
+    }
+
+    .see-more-audio {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  
+    .audiocard img {
+      height: 140px;
+    }
+  
+    .audiocard button {
+      left: 0;
+      top: -2rem;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-o69gx8-MuiCardMedia-root {
+      max-height: 12rem;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-193wbc8-MuiTypography-root {
+      height: 100%;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root {
+      display: block;
+      height: 100%;
+      background-color: var(--audiocard-footer-bg-color);
+    }
+}
+
+@media screen and (max-width:420px) {
+
+  #music {
+    margin: 0 auto;
+  }
+    
+    .musicTitle {
+        font-size: 1.5rem;
+        padding-top: 9;
+        margin-top: 0;
+    }
+
+    .audio-container {
+        /*grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));  Each column takes at least 30% and expands to fill available space */
+        /* width: 90vw; 
+        margin-top: -1rem; */
+        display: flex;
+      }
+  
+      .audiocard {
+        height: 200px;
+        width: 150px;
+      }
+
+      .see-more-audio {
+        margin-top: 1rem;
+        margin-left: 0;
+      }
+    
+      .audiocard img {
+        height: 140px;
+      }
+    
+      .audiocard button {
+        left: 0;
+        top: -2rem;
+      }
+
+      .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-o69gx8-MuiCardMedia-root {
+        max-height: 12rem;
+      }
+
+      .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-193wbc8-MuiTypography-root {
+        height: 100%;
+      }
+
+      .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root {
+        display: block;
+        height: 100%;
+        background-color: var(--audiocard-footer-bg-color);
+      }
+}
+
+@media screen and (max-width:375px) {
+
+  #music {
+    margin: 0 auto;
+  }
+
+    .musicTitle {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
+    .audio-container {
+        /*grid-template-columns: repeat(auto-fill, minmax(42%, 1fr));  Each column takes at least 30% and expands to fill available space */
+        /* width: 90vw; 
+        margin-top: -1.5rem; */
+        display: flex;
+        flex-wrap: nowrap;
+      }
+    
+      .audiocard {
+        height: 200px;
+        width: 150px;
+      }
+
+      .see-more-audio {
+        margin-top: 1rem;
+        margin-left: 0;
+      }
+    
+      .audiocard img {
+        height: 140px;
+      }
+    
+      .audiocard button {
+        left: 0;
+        bottom: 1rem;
+      }
+
+      .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-o69gx8-MuiCardMedia-root {
+        max-height: 12rem;
+      }
+
+      .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-193wbc8-MuiTypography-root {
+        height: 100%;
+      }
+
+      .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root {
+        display: block;
+        height: 100%;
+        background-color: var(--audiocard-footer-bg-color);
+    }
+}
+
+@media screen and (max-width:280px) {
+
+    .musicTitle {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      padding-top: 1rem;
+    }
+
+    .audio-container {
+      /*grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));  Each column takes at least 30% and expands to fill available space */
+      /* width: 90vw; 
+      margin-top: -1rem; */
+      display: block;
+    }
+
+    .audiocard {
+      height: 200px;
+      width: 200px;
+    }
+
+    .see-more-audio {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  
+    .audiocard img {
+      height: 140px;
+    }
+  
+    .audiocard button {
+      left: 0;
+      top: -2rem;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-o69gx8-MuiCardMedia-root {
+      max-height: 12rem;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root .css-193wbc8-MuiTypography-root {
+      height: 100%;
+    }
+
+    .audiocard .css-16smbjq-MuiPaper-root-MuiCard-root {
+      display: block;
+      height: 100%;
+      background-color: var(--audiocard-footer-bg-color);
+    }
+}

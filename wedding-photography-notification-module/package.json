@@ -1,0 +1,25 @@
+{
+  "name": "wedding-photography-notification-module",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "chmod +x ./zipBundles.sh && ./zipBundles.sh",
+    "build": "rm -r ./dist && node ./esbuild.config.js && npm run zip"
+  },
+  "author": "Nuwan Karunarathna",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.454.0",
+    "@aws-sdk/client-sqs": "^3.454.0",
+    "mongoose": "^8.0.1",
+    "typescript": "^5.3.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.129",
+    "@types/mongoose": "^5.11.97",
+    "@types/winston": "^2.4.4",
+    "esbuild": "^0.19.8"
+  }
+}

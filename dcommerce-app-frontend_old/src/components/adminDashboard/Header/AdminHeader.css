@@ -1,0 +1,17 @@
+.admin-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: white;
+  border-bottom: 1px solid #e7e7e7;
+  position: fixed;
+  width: 100%;
+  z-index: 5000;
+}
+.log-out-btn {
+  color: #65bb46 !important;
+  margin-right: 1rem !important;
+  height: 40px;
+}

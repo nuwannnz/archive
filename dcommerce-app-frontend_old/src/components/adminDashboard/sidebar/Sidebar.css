@@ -1,0 +1,14 @@
+.sidebar-container {
+  flex: 0.18;
+  height: 100%;
+}
+
+/**
+max width - 600px ---> 0px -> 600px
+min width - 600px ---> 600px -> up
+*/
+@media only screen and (min-width: 600px) {
+  .sidebar-toggle-btn {
+    display: none !important;
+  }
+}

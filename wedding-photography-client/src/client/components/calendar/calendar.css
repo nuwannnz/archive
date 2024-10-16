@@ -1,0 +1,74 @@
+.booking-datetime {
+    width: 100%; /* Adjust the width to your desired value */
+}
+
+.booking-datetime 
+.mbsc-datepicker-tab-active {
+    width: 40%;
+}
+
+.booking-datetime 
+.mbsc-datepicker-tab-wrapper {
+    justify-content: space-evenly;
+}
+
+.mbsc-ios.mbsc-datepicker-inline {
+    background: none;
+}
+
+.mbsc-ios.mbsc-datepicker-inline{
+    border: none;
+}
+
+.mbsc-ios.mbsc-page{
+    background: none;
+}
+
+.mbsc-ios.mbsc-timegrid-item.mbsc-selected {background: var(--light_green);}
+
+.mbsc-ios.mbsc-selected .mbsc-calendar-cell-text {
+    background: var(--light_green);
+    border-color: var(--light_green);
+}
+
+.mbsc-ios.mbsc-calendar-button.mbsc-button{ color: var(--dark_green);}
+
+@media screen and (max-width:1280px) {
+    .booking-datetime 
+    .mbsc-datepicker-tab-active {
+        width: 45% ;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .booking-datetime 
+    .mbsc-datepicker-tab-active {
+        width: 45%;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .booking-datetime 
+    .mbsc-datepicker-tab-active {
+        width: 80%;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .booking-datetime 
+    .mbsc-datepicker-tab-active {
+        width: 85%;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .booking-datetime 
+    .mbsc-datepicker-tab-active {
+        width: 100%;
+        margin: 1rem;
+    }
+}
